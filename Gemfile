@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
+gem "rails"
 
 gem 'sinatra'
     gem 'rake'
@@ -9,6 +9,8 @@ gem 'sinatra'
     gem 'shotgun'
     gem 'pry'
     gem 'require_all'
+    gem 'dotenv-rails'
+    gem 'activesupport'
     
 group :test do
       gem 'rspec'
